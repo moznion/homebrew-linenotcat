@@ -8,7 +8,7 @@ class Linenotcat < Formula
     sha256 '627e8c8d179a3e981151b97df9bc072d49d299019a7bdc7382c33ffefe3c2026'
   else
     url 'https://github.com/moznion/linenotcat/releases/download/0.1.0/linenotcat_darwin_386_0.1.0'
-    sha256 "c8b420e26dac01a2190163b25f8902a686b6759db16c831b13de0db0084b78c6"
+    sha256 'c8b420e26dac01a2190163b25f8902a686b6759db16c831b13de0db0084b78c6'
   end
 
   def install
@@ -22,6 +22,6 @@ class Linenotcat < Formula
   end
 
   test do
-    system "false"
+    system 'false'
   end
 end
